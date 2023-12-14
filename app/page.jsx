@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <Partners />
       <CardCategories />
-      <ExamplePrice />
+      {/* <ExamplePrice /> */}
       <ExampleProject />
     </main>
   );

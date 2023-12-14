@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 const Footer = () => {
   return (
-    <div class="w-full min-h-[75vh] flex items-center justify-center bg-neutral-950 pt-20 mt-44">
+    <div class="w-full min-h-[75vh] flex items-center justify-center bg-neutral-950 pt-20 ">
       <div class="max-w-7xl mx-auto w-full px-4 text-white flex flex-col">
         <div class="w-full text-3xl font-bold">
           <h1 class="w-full md:w-2/3">How can we help you. get in touch</h1>

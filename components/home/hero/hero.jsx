@@ -12,7 +12,7 @@ const Hero = () => {
         BEST-BEST-BEST-BEST
       </div>
       <Image
-        src={"/hero-image.jpg"}
+        src={"/hero-image.webp"}
         alt="=asdasd"
         fill
         className="object-cover w-full h-full"

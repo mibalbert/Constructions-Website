@@ -9,6 +9,7 @@ import {
   RulerSquareIcon,
   SunIcon,
 } from "@radix-ui/react-icons";
+import Link from "next/link";
 
 const FirstCol = () => {
   return (
@@ -42,15 +43,18 @@ const FirstCol = () => {
             </div>
           </div>
           <div className="flex flex-col gap-2 md:gap-3">
-            <Button
-              variant="outline"
-              className="w-full border border-dotted md:text-[17px]"
+            <Link
+              href={"/calculator"}
+              className="bg-white rounded-lg py-2 w-full text-center hover:bg-neutral-100 border border-dotted font-semibold"
             >
               Calculator
-            </Button>
-            <Button variant="" className="w-full p-5 md:text-[17px]">
-              Contact
-            </Button>
+            </Link>
+            <Link
+              href={"/contact-us"}
+              className="bg-neutral-900 rounded-lg text-white text-center py-2 w-full hover:bg-neutral-800"
+            >
+              Contact-Us
+            </Link>
           </div>
         </div>
       </div>
